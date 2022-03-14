@@ -1,0 +1,60 @@
+/* Base */
+.open {
+    display: flex;
+}
+
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header {
+        padding-top: 0;
+    }
+    .mobile_header {
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+        font-size: 4rem;
+        padding: 0 3rem;
+        margin-bottom: 0.4rem;
+    }
+    .header_cart,
+    .mobile_menu {
+        margin-top: 1rem;
+    }
+    
+    .banner_img {
+        background-attachment: unset;
+        background-position-y: unset;
+        min-height: 36vh;
+        width: 100%;
+    }
+    .footer {
+        padding-left: 1rem;
+        overflow: hidden;
+    }
+    .footer_slogan {
+        line-height: unset;
+    }
+    .footer_menu {
+        padding-left: 0;
+    }
+    .footer_copyright {
+        padding-top: 2rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}

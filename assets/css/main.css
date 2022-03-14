@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+.wrapper {
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    max-width: 122.5rem;
+}
+
+.mg--20 {
+    margin-top: -20px;
+}
+
+.mg-top-56 {
+    margin-top: 5.6rem;
+}
+
+.mg-top-6 {
+    margin-top: 0.6rem;
+}
+
+/* Header */
+.header {
+    max-height: 11rem;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.header .row {
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.header_logo img {
+    height: 5.7rem;
+}
+
+.header_menu {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.6rem;
+}
+
+.header_menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.top_menu a {
+    color: #000;
+    font-weight: 400;
+    text-decoration: none;
+    background: transparent;
+    font-size: 2.4rem;
+    margin-left: 2rem;
+}
+
+.main_menu li {
+    text-transform: uppercase;
+    padding: 0.4rem;
+    margin-left: 2rem;
+}
+
+.main_menu a {
+    color: #000;
+    font-weight: 400;
+    text-decoration: none;
+    background: transparent;
+}
+
+.mobile_header
+/* ,.mobile_menu_list  */
+{
+    display: none;
+}
+.mobile_menu--active {
+    display: none;
+    flex-direction: column;
+    padding: 0 3rem;
+    list-style-type: none;
+}
+.mobile_menu--active li {
+    padding: 10px;
+    cursor: pointer;
+}
+.mobile_menu--active a {
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background: transparent;
+}
+/* Main */
+
+.section_index {
+    min-height: 30px;
+}
+
+.banner {
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner_img {
+    background-image: url(https://manage.teamogift.com/images/banner/sPAcVzAfdb.jpg);
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-position-y: -87px;
+}
+
+.home_wrapper {
+    max-width: 118rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 1.8rem;
+    user-select: none;
+    min-height: 3rem;
+}
+
+.item_icon {
+    max-width: 20rem;
+    max height: 20rem;
+    margin: auto;
+}
+
+.item_icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.item_heading {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+}
+
+.item_content {
+    font-size: 1.6rem;
+    line-height: 30px;
+}
+
+.home_subtitle {
+    display: inline-block;
+    letter-spacing: 2px;
+    line-height: 20px;
+    background: #cf490e;
+    font-size: 10px;
+    padding: 0 20px;
+    z-index: 100;
+    color: #fff;
+    opacity: 1;
+    position: relative;
+    top: -10px;
+    margin: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.promo_item img {
+    width: 100%;
+}
+
+.promo_wrapper {
+    font-family: arial;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+.promo_wrapper .title {
+    font-size: 2.6rem;
+    letter-spacing: 1.5px;
+    margin: 2.6rem 0;
+}
+
+/* Img_Item */
+.showcase_wrap {
+    position: relative;
+
+}
+
+.showcase_item {
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.showcase_wrap:hover .showcase_item_blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.4);
+    z-index: 1000;
+}
+
+.promo_wrapper p {
+    margin: 1.8rem 0;
+}
+
+.showcase_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 107rem;
+    margin: auto;
+}
+
+.showcase_wrapper .showcase_item {
+    width: 17.5rem;
+    height: 17.5rem;
+}
+
+.showcase_wrapper .showcase_wrap:nth-child(1) .showcase_item {
+    background-image: url(https://manage.teamogift.com/images/partner/J0J45EGRdK.png);
+}
+
+.showcase_wrapper .showcase_wrap:nth-child(2) .showcase_item {
+    background-image: url(https://manage.teamogift.com/images/partner/t93q8VNwjZ.png);
+}
+
+.showcase_wrapper .showcase_wrap:nth-child(3) .showcase_item {
+    background-image: url(https://manage.teamogift.com/images/partner/L7IyHTpUFo.jpg);
+}
+
+.showcase_wrapper .showcase_wrap:nth-child(4) .showcase_item {
+    background-image: url(https://manage.teamogift.com/images/partner/OPy4iiMrjt.png);
+}
+
+.showcase_wrapper .showcase_wrap:nth-child(5) .showcase_item {
+    background-image: url(https://manage.teamogift.com/images/partner/EueQQ322Zi.webp);
+}
+
+.showcase_gallery {
+    display: flex;
+    justify-content:space-between;
+}
+
+.showcase_gallery .showcase_item {
+    width: 30rem;
+    height: 30rem;
+}
+
+.showcase_gallery .showcase_wrap:nth-child(1) .showcase_item {
+    background-image: url(https://manage.teamogift.com/images/instagram/RW41lmH9Tc.jpg);
+}
+
+.showcase_gallery .showcase_wrap:nth-child(2) .showcase_item {
+    background-image: url(https://manage.teamogift.com/images/instagram/EXFpVweOXx.jpg);
+}
+
+.showcase_gallery .showcase_wrap:nth-child(3) .showcase_item {
+    background-image: url(https://manage.teamogift.com/images/instagram/EGjYwkmukY.jpg);
+}
+
+.showcase_gallery .showcase_wrap:nth-child(4) .showcase_item {
+    background-image: url(https://manage.teamogift.com/images/instagram/tiu37LBtRQ.jpg);
+}
+
+.showcase_gallery .showcase_wrap:nth-child(5) .showcase_item {
+    background-image: url(https://manage.teamogift.com/images/instagram/ITR7pFHQu1.jpg);
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-right: 30px;
+    font-size: 1.4rem;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer_logo {
+    background-image: url(https://teamogift.com/images/teamo-logo.jpg);
+    background-size: contain;
+    display: block;
+    width: 50px;
+    height: 49px;
+}
+
+.footer_logo,
+.footer_desc p {
+    margin-bottom: 2rem;
+}
+
+.footer_slogan {
+    background-color: #bd3503;
+    color: #fff;
+    font-weight: 700;
+    line-height: 4px;
+    padding: 15px 10px 2px;
+}
+
+.footer_menu {
+    list-style-type: none;
+}
+
+.footer_menu li {
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.footer_menu a {
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer .title {
+    margin-bottom: 1rem;
+}
+
+.footer_email {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+}
+
+.footer_email a {
+    display: block;
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer_email a span {
+    text-decoration: underline;
+}
+
+.footer_social ul {
+    list-style-type: none;
+    display: flex;
+    margin: 15px 0 0;
+    padding: 0;
+}
+
+.footer_social a {
+    display: inline-block;
+    padding: 0;
+    width: 23px;
+    height: 23px;
+    font-size: 26px;
+    color: #000;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer_copyright {
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    padding-top: 8rem;
+}
